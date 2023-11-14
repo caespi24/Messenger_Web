@@ -1,0 +1,127 @@
+body{
+  font-family: Calibre, Helvetica Neue, Segoe UI, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.navbar{
+  background-color: white;
+  box-shadow: none;
+
+  height: auto;
+}
+
+.nav-items li a{
+  color: black;
+  font-weight: 650;
+  font-size: 17px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0 0 0 2rem;
+  margin-top: 2.5rem;
+}
+
+.nav-items li a:hover{
+  padding-bottom: -10rem;
+  border-bottom: 4px solid #0a7cff;
+  background-color: transparent;
+}
+
+.logo{
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.tagline{
+  background: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+  text-align: left;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 90px;
+  letter-spacing: -4px;
+  font-weight: bold;
+  height: 310px;
+}
+
+.messenger-text{
+  text-align: left;
+  color: #595959;
+  font-size: 20px;
+}
+
+input[type=text]:not(.browser-default), input[type=password]:not(.browser-default){
+  border-bottom: none;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]){
+  border: none;
+  -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.username{
+  margin: 0 0 2rem 0;
+  border-radius: 10px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.username.active {
+  border: 2px solid #0088FF;
+  border-radius: 10px;
+}
+.password{
+  margin: -1rem 0 2rem 0;
+  border-radius: 10px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.password.active{
+  border: 2px solid #0088FF;
+  border-radius: 10px;
+}
+
+.btn{
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: none;
+  width: 110px;
+  text-align: center;
+  padding: .5rem 0rem 3rem 0;
+  border: 1px solid #0088FF;
+  background-color: #0a7cff;
+  border-radius: 100px;
+  color: white;
+}
+
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #A033FF;
+}
+
+.forgot{
+  text-decoration: underline;
+}
+
+[type="checkbox"].filled-in:checked+span:not(.lever):after{
+  background-color: #0a7cff;
+}
+
+.apple-size img{
+  height: 55px;
+  margin-left: -1rem;
+}
+
+.micro-size img{
+  margin-left: -1rem;
+  height: 55px;
+}
+
+.mess-bg{
+  height: 700px;
+  margin: 4rem 0 0 1rem;
+}
