@@ -25,6 +25,7 @@
     <nav class="navbar">
       <div class="nav-wrapper">
         <img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/120009688_325579128711709_1736249742330805861_n.png?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=SpEXbZTIXV0AX8tioS5&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfAix1my7IzU7pYGOS3yOHqAH2Lz7Z7zCjhqACzvXm_l4g&oe=6559363D" class="logo" alt="Messenger">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger hide-on-large-only right black-text"><i class="material-icons menu-icon">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down nav-items">
           <li><a href="https://www.messenger.com/features">Features</a></li>
           <li><a href="https://www.messenger.com/desktop">Desktop App</a></li>
@@ -33,6 +34,18 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Sidenav mobile view -->
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <ul class="nav-items">
+        <li><a href="https://www.messenger.com/features">Features</a></li>
+        <li><a href="https://www.messenger.com/desktop">Desktop App</a></li>
+        <li><a href="https://www.messenger.com/privacy">Privacy & Safety</a></li>
+        <li><a href="https://developers.facebook.com/products/messenger/">For Developers</a></li>
+      </ul>
+    </li>
+  </ul>
 
     <!-- For Large Desktop -->
     <!-- Content -->
@@ -62,10 +75,9 @@
                 <span>Keep me signed in</span>
               </label>
             </p>
-            <div class="col s4 apple-size">
+            <div class="icon-size">
               <a href="https://apps.apple.com/us/app/messenger/id1480068668?mt=12"><img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/119597221_2801552506611915_4465041091818364564_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=e9xySSGvHeMAX9Zv6jN&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfBKzjp85yuQkIaOEGCtsNUHaggER13aD4m5Th8ERnyb0w&oe=6557B275" alt=""></a>
-            </div>
-            <div class="col s4 micro-size">
+
               <a href="https://apps.microsoft.com/detail/9WZDNCRF0083?activetab=pivot%3Aoverviewtab&hl=en-us&gl=US"><img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/119656338_326247688451849_3018195711400016354_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=GllgW-ro9CEAX8lpK_0&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfAHMIMncG7VATRHMbgQswNbXUM7Ego2sWelZ3r_Vbx7TQ&oe=6558BF14" alt=""></a>
             </div>
           </form>
@@ -78,26 +90,28 @@
       </div>
     </div>
 
-    <!-- For Medium to small devices -->
+    <!-- For Medium Devices -->
     <!-- Content -->
     <div class="row">
       <!-- Left Content -->
-      <div class="col s8 offset-s2 hide-on-large-only">
-        <h1 class="tagline-med">Hang out anytime, anywhere</h1>
+      <div class="col m8 offset-m2 hide-on-large-only hide-on-small-only">
+        <h6 class="tagline-med">Hang out</h6>
+        <h6 class="tagline-med">anytime, anywhere</h6>
         <p class="messenger-text-med">Messenger makes it easy and fun to stay close to your favorite people.</p>
 
         <div class="row">
-          <form action="" class="col s12">
+          <form action="" class="col m12">
             <div class="row">
-              <div class="input-field col s12 center username-med">
+              <div class="input-field col m12 center username-med">
                 <input placeholder="Email or phone number" type="text">
               </div>
-              <div class="input-field col s12 password-med">
+              <div class="input-field col m12 password-med">
                 <input placeholder="Password" type="text">
               </div>
             </div>
-                <a href="" class="btn">Log in</a>
-                <a href="https://www.facebook.com/login/identify/?ctx=recover&from_login_screen=0" class="forgot">Forgot your password?</a>
+                <button href="" class="btn-med">Log in</button>
+                <br>
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&from_login_screen=0" class="forgot-med">Forgot your password?</a>
             </div>
             <p>
               <label>
@@ -105,22 +119,61 @@
                 <span>Keep me signed in</span>
               </label>
             </p>
-            <div class="apple-size">
+            <div class="icon-size-med">
               <a href="https://apps.apple.com/us/app/messenger/id1480068668?mt=12"><img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/119597221_2801552506611915_4465041091818364564_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=e9xySSGvHeMAX9Zv6jN&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfBKzjp85yuQkIaOEGCtsNUHaggER13aD4m5Th8ERnyb0w&oe=6557B275" alt=""></a>
-            </div>
-            <div class="micro-size">
+              
               <a href="https://apps.microsoft.com/detail/9WZDNCRF0083?activetab=pivot%3Aoverviewtab&hl=en-us&gl=US"><img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/119656338_326247688451849_3018195711400016354_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=GllgW-ro9CEAX8lpK_0&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfAHMIMncG7VATRHMbgQswNbXUM7Ego2sWelZ3r_Vbx7TQ&oe=6558BF14" alt=""></a>
             </div>
           </form>
         </div>
-        <div class="col s12 hide-on-large-only">
+        <div class="col s12 hide-on-large-only hide-on-small-only">
         <img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/120973513_338186077283942_8148888802958728934_n.png?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=U-lCTAlttwEAX-wirhD&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfDv_EPmb8O6Ubo4gRptCfA_kAwpSlfn_ejhtiVb80Oumw&oe=6558EF67" class="mess-bg responsive-img" alt="">
       </div>
       </div>
+
+    <!-- For Small Devices -->
+    <!-- Content -->
+    <div class="row">
+      <!-- Left Content -->
+      <div class="col s8 offset-s2 hide-on-med-and-up">
+        <h6 class="tagline-small">Hang out</h6>
+        <h6 class="tagline-small">anytime, anywhere</h6>
+        <p class="messenger-text-small">Messenger makes it easy and fun to stay close to your favorite people.</p>
+
+        <div class="row">
+          <form action="" class="col s12">
+            <div class="row">
+              <div class="input-field col s12 center username-small">
+                <input placeholder="Email or phone number" type="text">
+              </div>
+              <div class="input-field col s12 password-small">
+                <input placeholder="Password" type="text">
+              </div>
+            </div>
+                <button href="" class="btn-small">Log in</button>
+                <br>
+                <a href="https://www.facebook.com/login/identify/?ctx=recover&from_login_screen=0" class="forgot-small">Forgot your password?</a>
+            </div>
+            <p>
+              <label>
+                <input type="checkbox" class="filled-in">
+                <span>Keep me signed in</span>
+              </label>
+            </p>
+            <div class="icon-size-small">
+              <a href="https://apps.apple.com/us/app/messenger/id1480068668?mt=12"><img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/119597221_2801552506611915_4465041091818364564_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=e9xySSGvHeMAX9Zv6jN&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfBKzjp85yuQkIaOEGCtsNUHaggER13aD4m5Th8ERnyb0w&oe=6557B275" alt=""></a>
+              
+              <a href="https://apps.microsoft.com/detail/9WZDNCRF0083?activetab=pivot%3Aoverviewtab&hl=en-us&gl=US"><img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/119656338_326247688451849_3018195711400016354_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=GllgW-ro9CEAX8lpK_0&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfAHMIMncG7VATRHMbgQswNbXUM7Ego2sWelZ3r_Vbx7TQ&oe=6558BF14" alt=""></a>
+            </div>
+          </form>
+        </div>
+        <div class="col s12 hide-on-med-and-up">
+        <img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.8562-6/120973513_338186077283942_8148888802958728934_n.png?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=U-lCTAlttwEAX-wirhD&_nc_ht=scontent.fmnl7-1.fna&oh=00_AfDv_EPmb8O6Ubo4gRptCfA_kAwpSlfn_ejhtiVb80Oumw&oe=6558EF67" class="mess-bg responsive-img" alt="">
+      </div>
+      </div>
+
+
     </div>
-
-
-  </div>
 
   
 

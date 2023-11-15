@@ -38,7 +38,7 @@ body{
   -webkit-background-clip: text;
   color: transparent;
   display: inline-block;
-  word-break: break-word;
+  word-break: keep-all;
   font-size: 90px;
   letter-spacing: -4px;
   font-weight: bold;
@@ -116,14 +116,11 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
   background-color: #0a7cff;
 }
 
-.apple-size img{
+.icon-size img{
   height: 55px;
   margin-left: -1rem;
-}
-
-.micro-size img{
-  margin-left: -1rem; 
-  height: 55px;
+  margin-right: 1rem;
+  
 }
 
 .mess-bg{
@@ -131,23 +128,29 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
   margin: 4rem 0 0 1rem;
 }
 
-/* Medium-small devices */
+/* Medium devices */
+
+.menu-icon{
+  margin-top: 1.5rem;
+}
 
 .tagline-med{
   background: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
   text-align: center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 50px;
+  font-size: 35px;
   letter-spacing: -2px;
   font-weight: bold;
-  height: 115px;
+  margin: 0;
+  word-break: keep-all;
+  height: 45px;
 }
 
 .messenger-text-med{
   text-align: center;
   color: #595959;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .username-med{
@@ -158,7 +161,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
   background-color: rgb(238, 238, 238);
 }
 
-.username.active {
+.username-med.active {
   border: 2px solid #0088FF;
   border-radius: 10px;
 }
@@ -170,7 +173,132 @@ input[type=text]:not(.browser-default):focus:not([readonly]), input[type=passwor
   background-color: rgb(238, 238, 238);
 }
 
-.password.active{
+.password-med.active{
   border: 2px solid #0088FF;
   border-radius: 10px;
+}
+
+.row{
+  margin: 0;
+}
+
+.btn-med{
+  margin: -3rem 10rem 1rem 10rem;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: none;
+  width: 140px;
+  text-align: center;
+  padding: 1rem 3rem 1rem 3rem;
+  border: 1px solid #0088FF;
+  background-color: #0a7cff;
+  border-radius: 100px;
+  color: white;
+}
+
+
+.btn-med:hover{
+  cursor: pointer;
+  background-color: #A033FF;
+  border: 1px solid #A033FF;
+}
+
+.forgot-med{
+  margin: 0 10rem;
+  text-decoration: underline;
+}
+
+
+.icon-size-med img{
+  height: 30px;
+}
+
+
+
+/* Small devices */
+
+.menu-icon{
+  margin-top: 1.5rem;
+}
+
+.tagline-small{
+  background: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  letter-spacing: -2px;
+  font-weight: bold;
+  margin: 0;
+  word-break: keep-all;
+  height: 30px;
+}
+
+.messenger-text-small{
+  text-align: center;
+  color: #595959;
+  font-size: 12px;
+}
+
+.username-small{
+  margin: 0 0 2rem 0;
+  border-radius: 10px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.username-small.active {
+  border: 2px solid #0088FF;
+  border-radius: 10px;
+}
+.password-small{
+  margin: -1rem 0 2rem 0;
+  border-radius: 10px;
+  height: 3rem;
+  color: #595959;
+  background-color: rgb(238, 238, 238);
+}
+
+.password-small.active{
+  border: 2px solid #0088FF;
+  border-radius: 10px;
+}
+
+.row{
+  margin: 0;
+}
+
+.btn-small{
+  margin: -1rem 4rem 1rem 4rem;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: none;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #0088FF;
+  background-color: #0a7cff;
+  border-radius: 100px;
+  color: white;
+}
+
+
+.btn-small:hover{
+  cursor: pointer;
+  background-color: #A033FF;
+  border: 1px solid #A033FF;
+}
+
+.forgot-small{
+  margin: 0 2rem;
+  text-decoration: underline;
+}
+
+.icon-size-small{
+  margin-left: 1rem;
+}
+
+.icon-size-small img{
+  height: 30px;
 }

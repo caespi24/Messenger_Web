@@ -8,4 +8,17 @@ $('.password').on('click', function() {
   $('.username').removeClass('active');
 });
 
+$('.username-med').on('click', function() {
+  $(this).addClass('active');
+  $('.password-med').removeClass('active');
+});
+
+$('.password-med').on('click', function() {
+  $(this).addClass('active');
+  $('.username-med').removeClass('active');
+});
+
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+});
 
