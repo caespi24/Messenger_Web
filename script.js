@@ -18,6 +18,16 @@ $('.password-med').on('click', function() {
   $('.username-med').removeClass('active');
 });
 
+$('.username-small').on('click', function() {
+  $(this).addClass('active');
+  $('.password-small').removeClass('active');
+});
+
+$('.password-small').on('click', function() {
+  $(this).addClass('active');
+  $('.username-small').removeClass('active');
+});
+
 $(document).ready(function(){
   $('.sidenav').sidenav();
 });
